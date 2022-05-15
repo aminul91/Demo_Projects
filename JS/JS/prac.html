@@ -1,0 +1,31 @@
+<htmal>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<button id="test"> click me</button>
+
+<div id="ppp">some txt to hide</div>
+
+    <script>
+
+        $(document).ready(function(){
+            $("#test").click(function(){
+
+        if ($("#ppp").is(":visible")) {
+            $("#ppp").hide();
+
+        }
+        else {
+            $("#ppp").show(); 
+
+        };
+
+    });
+
+});
+           
+        </script>
+</body>
+</htmal>

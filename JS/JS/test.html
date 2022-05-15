@@ -1,0 +1,33 @@
+# Note
+
+## Create Virtual Environment with Miniconda and install packages
+
+```sh
+conda create --name virtual_env_name python=3.7
+conda activate djh
+pip install -r requirements.txt
+
+Run the project after activating virtual environment 
+
+python manage.py runserver
+
+If the project is run 8000 port Then go to browser and write http://localhost:8000/ 
+
+
+## Install Miniconda in Linux
+
+- Go to: [this link](https://docs.conda.io/en/latest/miniconda.html)
+- Download the .sh file from the list for Linux.
+
+- Make it executable:
+`chmod +x filename.sh`
+
+- Run the file:
+`./filename.sh`
+
+- Set the environment variable:
+`export PATH=~/anaconda3/bin:$PATH`
+
+- Check the installation:
+`conda --version`
+
