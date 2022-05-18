@@ -6,7 +6,7 @@ class A
 {
     private:
         int id = 101;
-        string name = "Anisul Islam";
+        string name = "Hello practice";
 
     public:
         friend class B;

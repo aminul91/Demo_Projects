@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     Student s1;
-    s1.setName("Anisul Islam");
+    s1.setName("See the view);
     cout << s1.getName() << endl;
 
 
