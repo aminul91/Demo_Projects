@@ -1,5 +1,13 @@
-Opwn a terminal here and write
+## Open a terminal here and write
 " php artisan serve"
+
+## Postman is better for the API test from Backend for this project
+
+## GET, POST, PUT PATCh, DELETE all operations are implemented
+
+## AUthentication token required for the operations
+
+##validation is also present for the URL 
 
 
 

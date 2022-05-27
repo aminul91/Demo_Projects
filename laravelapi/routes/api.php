@@ -20,3 +20,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/users/{id?}',[UserApiController::class, 'showUser']);
 Route::post('/add-user/',[UserApiController::class, 'addUser']);
+Route::post('/add-multiple-user/',[UserApiController::class, 'addMultipleUser']);
+Route::put('/update-user-detail/{id?}',[UserApiController::class, 'updateUserDetails']);
+Route::patch('/update-user-singlerecord/{id}',[UserApiController::class, 'updateUsersingle']);
+Route::delete('/delete-user-singlerecord/{id}',[UserApiController::class, 'deleteUsersingle']);
+Route::delete('/delete-user-withjson/',[UserApiController::class, 'deleteUserwithjson']);
+Route::delete('/delete-user-multiplerecord/{ids}',[UserApiController::class, 'deleteUserMultiple']);
+Route::delete('/delete-multipleuser-withjson/',[UserApiController::class, 'deleteMultipleUserwithjson']);
